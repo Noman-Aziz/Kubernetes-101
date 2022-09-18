@@ -9,10 +9,10 @@ spec:
   ingressClassName: nginx
   tls:
     - hosts:
-        - mongo-express.rnssolutions.com
+        - mongo-express.nomanaziz.me
       secretName: mongo-express-certificate
   rules:
-    - host: mongo-express.rnssolutions.com
+    - host: mongo-express.nomanaziz.me
       http:
         paths:
           - pathType: Prefix
